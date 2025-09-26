@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { type Product, type SortBy, type SortDir } from "./types/Product";
+import Component from "@materi/TestComponent/Component";
 
 type ProductProps = {
   product: Product[];
